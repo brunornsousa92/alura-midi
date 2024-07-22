@@ -1,0 +1,57 @@
+.teclado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tecla {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tecla:hover {
+  background-color: #0056b3;
+}
+
+.custom-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.play-pause {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-pause:hover {
+  background-color: #218838;
+}
+
+.progress-container {
+  flex: 1;
+  height: 10px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #007bff;
+}
+
+.time {
+  font-family: monospace;
+}
